@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: #BC5148;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+      
+        a{
+            font-size: 14px;
+        }
+        .icons{
+            ul{
+                display: flex;
+                gap: 10px;
+            }
+            a :hover{
+                color: white;
+            }
+        }
+        .texts{
+            ul{
+                display: flex; 
+                gap: 10px;
+            }
+        }
+    }
+}
+
+.texts{
+    .text-one:hover{
+        color: white;
+        width: 65px;
+        background-color: #c7554b;
+    }
+    .text-two{
+        background-color: #F4B214;
+
+        &:hover{
+            color: white;
+        }
+    }
+}
+
+#head{
+    padding: 12px;
+    font-size: 17px;
+    color: #DDDDDD;
+    & :hover{
+        color: #c7554b;
+    }
+
+   .drop-item{
+    a:hover{
+        background-color: #c7554b;
+        color: white;
+    }
+    }
+   }
+
+ main{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+   }
+
+
+#parents{
+    background-image: url(https://preview.colorlib.com/theme/adopted/img/slider-2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    color: #DDDDDD;
+    .parents-text{
+        h1{
+            font-weight: 800;
+            font-size: 45px;
+            color: white;
+        }
+        button{
+            padding: 10px 15px;
+            color: white;
+            background-color: #BC5148;
+            border: none;
+        }
+    }
+}
+
+#steps-adopt{
+    padding: 20px 0px;
+    .steps-text{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        h1{
+            font-size: 30px;
+            font-weight: 400;
+        }
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: none;
+        img{
+            width: 100%;
+        }
+    }
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: #888787;
+
+        .btn{
+            width: 180px;
+            padding: 10px 0px;
+            background: none;
+            color: #BC5148;
+            border: 2px solid #BC5148;
+
+            &:hover{
+                color: white;
+                background-color: #BC5148;
+            }
+        }
+       
+    }
+}
+
+#children{
+    .children-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        h1{
+            font-size: 32px;
+            font-weight: 400;
+        }
+        p{
+            font-size: 20px;
+            width: 65%; 
+        }
+        button{
+            padding: 12px;
+            background-color: #BC5148;
+            color: white;
+            border: none;
+            font-weight: 500;
+        }
+    }
+
+}
+
+#featured-story{
+    width: 100%;
+ 
+    h1{
+        font-size: 30px;
+        font-weight: 400;
+        padding: 20px 0px;
+    }
+
+    .container{
+        width: 80%;
+        
+        .row{
+            display: flex;
+      
+        }
+    }
+    .story-image{
+        padding: 15px 0px;
+        img{
+            width: 120%;
+        }
+    }
+}
